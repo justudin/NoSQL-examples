@@ -30,7 +30,6 @@ docker run --name mongodb -d -p 27017:27017 mongodb/mongodb-community-server
 
 `
 docker run --name neo4j --publish=7474:7474 --publish=7687:7687 --env NEO4J_AUTH=none neo4j:2025.08.0
-
 `
 
 
