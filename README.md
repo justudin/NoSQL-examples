@@ -1,4 +1,4 @@
-If you’ve \*NOT DONE\* already
+If you’ve **NOT DONE** already
 
 
 
@@ -8,7 +8,9 @@ If you’ve \*NOT DONE\* already
 
 
 
-`docker run -d --name redis -p 6379:6379 redis`
+`
+docker run -d --name redis -p 6379:6379 redis
+`
 
 
 
@@ -16,7 +18,9 @@ If you’ve \*NOT DONE\* already
 
 
 
-`docker run --name mongodb -d -p 27017:27017 mongodb/mongodb-community-server`
+`
+docker run --name mongodb -d -p 27017:27017 mongodb/mongodb-community-server
+`
 
 
 
@@ -24,7 +28,10 @@ If you’ve \*NOT DONE\* already
 
 
 
-`docker run --name neo4j --publish=7474:7474 --publish=7687:7687 --env NEO4J\_AUTH=none neo4j:2025.08.0`
+`
+docker run --name neo4j --publish=7474:7474 --publish=7687:7687 --env NEO4J_AUTH=none neo4j:2025.08.0
+
+`
 
 
 
